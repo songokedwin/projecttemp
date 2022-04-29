@@ -40,4 +40,4 @@ st.header('Temperature Vs Year')
 df=temperature_data.copy()
 fig=px.bar(df,x='year',y='AverageTemperatureFahr')
 st.write(fig)
-     
+
